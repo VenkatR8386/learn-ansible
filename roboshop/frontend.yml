@@ -2,7 +2,7 @@
   host: all
   become: yes
   tasks:
-    - name: Install Nginx Server
+    - name: Install Nginx Server.
       ansible.builtin.yum:
         name: nginx
         state: latest
